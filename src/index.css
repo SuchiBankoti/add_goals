@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vh;
+  height: 20vh;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.goal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vh;
+  height: 80vh;
+  margin: auto;
+  margin-bottom: 20px;
+}
+form {
+  width: 80%;
+  margin: 10px;
+}
+label {
+  width: 100%;
+  color: black;
+  font-weight: 700;
+}
+input {
+  width: 80%;
+}
+.add-btn {
+  background-color: rgb(101, 5, 5);
+  width: 25%;
+  height: 25%;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid rgb(101, 5, 5);
+}
+.goal {
+  background-color: rgb(101, 5, 5);
+  color: white;
+  border: 1px solid black;
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px rgb(128, 80, 80);
+}
