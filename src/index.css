@@ -41,6 +41,15 @@ input {
   border-radius: 2px;
   border: 1px solid rgb(101, 5, 5);
 }
+.blur-btn {
+  background-color: rgb(101, 5, 5);
+  width: 25%;
+  height: 25%;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid rgb(101, 5, 5);
+  opacity: 0.5;
+}
 .goal {
   background-color: rgb(101, 5, 5);
   color: white;
